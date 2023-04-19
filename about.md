@@ -7,11 +7,11 @@ permalink: /about/
 ## 关于我
 你好，我是程序员柠檬。
 
-国内一线互联网大厂计算机软件工程师、[知乎](https://www.zhihu.com/people/ning-meng-cheng-31-94)编程领域万赞答主。
+国内一线互联网大厂计算机软件工程师、[知乎](https://www.zhihu.com/people/goldstine)编程领域万赞答主。
 
-[个人技术公众号](https://mp.weixin.qq.com/mp/homepage?__biz=MzkwOTE2OTY1Nw==&hid=1&sn=6395e40d884ce4dd3900a68a0f5a6b87&scene=18#wechat_redirect)分享编程学习路线、编程学习资源，记录技术成长，欢迎扫码添加：
+[个人技术公众号](https://mp.weixin.qq.com/s?__biz=MzkwODI4ODQ0OA==&mid=2247484023&idx=1&sn=ac0cddc56b4cc939777e99a9e1dcc3dc&chksm=c0cd0ad8f7ba83cea1d6187a72b9bececb81be3349011cf621510ab7c5414549d1df2f853b61&token=2017477247&lang=zh_CN#rd)分享编程学习路线、编程学习资源，记录技术成长，欢迎扫码添加：
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
+![公众号二维码](https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/weixin.jpg)
 
 
 

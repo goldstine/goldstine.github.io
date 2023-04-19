@@ -1,4 +1,4 @@
-这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章]( https://lemonchann.github.io/create_blog_with_github_pages/ )详细指导搭建步骤。
+这是一个可 fork 的博客模板仓库，帮助你快速搭建自己的博客，可以参考我博客的[这篇文章]( https://goldstine.github.io/create_blog_with_github_pages/ )详细指导搭建步骤。
 
 ### 文章版权
 
@@ -12,5 +12,5 @@
 
 **这是一个专注编程知识和资源分享的公众号，包含各类编程学习路线，让你在编程路上少走弯路**
 
-![公众号二维码](https://github.com/lemonchann/images/raw/master/gzh/%E6%96%87%E6%9C%AB%E6%8E%A8%E5%B9%BF%E6%96%87%E6%A1%88.png)
+![公众号二维码](https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/weixin.jpg)
 

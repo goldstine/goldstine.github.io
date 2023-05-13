@@ -6,6 +6,72 @@ layout: default
 <div>
   菜单页布局
 </div>
+<style>
+  * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      font-weight: 520;
+      font-family: 微软雅黑;
+  }
+
+  #nav {
+      width: 1470px;
+      height: 72px;
+      background-color: rgb(247, 249, 250);
+      border-radius: 20px;
+      margin: 20px auto;
+  }
+
+  #nav>ul>li {
+      float: left;
+      width: 175.75px;
+      height: 72px;
+      text-align: center;
+  }
+
+  #nav>ul>li>a {
+      text-align: center;
+      line-height: 72px;
+      font-size: 20px;
+      color: black;
+  }
+
+  #nav>ul>li>a:hover {
+      color: orange;
+  }
+
+  ul>span {
+      float: left;
+      line-height: 72px;
+      color: rgb(225, 224, 224);
+      font-weight: 800;
+      font-size: 24px;
+  }
+
+  #nav>ul>li>.a1 {
+      color: #FF0036;
+  }
+
+  #nav>ul>li>.a2 {
+      color: rgb(101, 198, 58);
+  }
+</style>
+
+
+<div id="nav">
+  <ul>
+      <li><a href="#" class="a1">CPP</a></li><span>|</span>
+      <li><a href="#" class="a1">Java</a></li><span>|</span>
+      <li><a href="#" class="a2">Python</a></li><span>|</span>
+      <li><a href="#">AIGC</a></li><span>|</span>
+      <li><a href="#">DeepLearning</a></li><span>|</span>
+      <li><a href="#">MachineLearning</a></li><span>|</span>
+      <li><a href="#">ReinforcementLearning</a></li><span>|</span>
+      <li><a href="#">WirelessNetwork</a></li>
+  </ul>
+</div>
 
 <div class="search-container">
   <input type="text" id="search-input" placeholder="search blog posts..." style="width: 90%;

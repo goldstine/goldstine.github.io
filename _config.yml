@@ -34,6 +34,8 @@ navigation:
     url: /music
   - name: Video
     url: /video
+  - name: Navigate
+    url: /navigate
 
 # Pagination
 paginate: 8

@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	height: 100%;
+}
+body{
+	perspective: 1000px;
+	transform-style: preserve-3d; 
+}
+
+@keyframes round{
+	0%{
+		transform: rotateX(0deg) rotateY(0deg);
+	}
+	100%{
+		transform: rotateX(360deg) rotateY(360deg);
+	}
+}
+
+div.wrapper{
+	position: absolute;
+	left: calc(50% - 50px);
+	top: calc(50% - 50px);
+	width: 100px;
+	height: 100px;
+	transform-style: preserve-3d; 
+	animation: round 20s linear infinite;
+}
+.wrapper .wrap {
+	width: 100px;
+	height: 100px;
+	background: rgba(0,255,255,1);
+	position: absolute;
+	top:50px;
+	left: 50px;
+	overflow: hidden;
+}
+.wrapper .wrap img{
+	height: 100%;
+}
+
+.in-front{
+	transform: translateZ(50px);
+}
+.in-back{
+	transform: translateZ(-50px);
+}
+.in-left{
+	transform: rotateY(90deg) translateZ(50px);
+}
+.in-right{
+	transform: rotateY(-90deg) translateZ(50px);
+}
+.in-top{
+	transform: rotateX(90deg) translateZ(50px);
+}
+.in-bottom{
+	transform: rotateX(-90deg) translateZ(50px);
+}
+
+
+.wrapper .out{
+	width: 150px;
+	height: 150px;
+	background: rgba(0,255,255,1);
+	position: absolute;
+	overflow: hidden;
+	transition: all 1s;
+}
+.wrapper .out img{
+	height: 200%;
+}
+/*设置外层div*/
+.out-front{
+	transform: translateZ(75px);
+}
+.out-back{
+	transform: translateZ(-75px);
+}
+.out-left{
+	transform: rotateY(90deg) translateZ(75px);
+}
+.out-right{
+	transform: rotateY(-90deg) translateZ(75px);
+}
+.out-top{
+	transform: rotateX(90deg) translateZ(75px);
+}
+.out-bottom{
+	transform: rotateX(-90deg) translateZ(75px);
+}
+
+/*hover效果*/
+.wrapper:hover .out-front{
+	transform: translateZ(150px);
+}
+.wrapper:hover .out-back{
+	transform: translateZ(-150px);
+}
+.wrapper:hover .out-left{
+	transform: rotateY(90deg) translateZ(150px);
+}
+.wrapper:hover .out-right{
+	transform: rotateY(-90deg) translateZ(150px);
+}
+.wrapper:hover .out-top{
+	transform: rotateX(90deg) translateZ(150px);
+}
+.wrapper:hover .out-bottom{
+	transform: rotateX(-90deg) translateZ(150px);
+}

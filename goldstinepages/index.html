@@ -4,19 +4,9 @@ title: Photo-Wall
 permalink: /photos/
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/index.css">
-</head>
-<body>
-    <div><p>R</p></div>
-
-    <div class="wrapper">
+<div><p>R</p></div>
+<link rel="stylesheet" href="../css/index.css">
+<div class="wrapper">
 		<img src="../images/cube/front.jpg" alt="front">
 		<img src="../images/cube/back.jpg" alt="back">
 		<img src="../images/cube/left.jpg" alt="left">
@@ -25,9 +15,9 @@ permalink: /photos/
 		<img src="../images/cube/bottom.jpg" alt="bottom">
 		<img src="../images/cube/left.jpg" alt="left">
 		<img src="../images/cube/right.jpg" alt="right">
-	</div>
+</div>
 	
-	<script>
+<script >
 		document.body.onmousemove = function (e){
 			this.style.perspectiveOrigin = "" + e.pageX + "px" + e.pageY + "px";
 			// console.log(e.pageX + "px" + e.pageY + "px");
@@ -35,7 +25,4 @@ permalink: /photos/
 		}
 
 		console.log("引入成功");
-	</script>
-
-</body>
-</html>
+</script>

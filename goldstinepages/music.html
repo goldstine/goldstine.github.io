@@ -234,9 +234,6 @@ permalink: /music/
 
     #au{
         display: inline-block;
-        position: absolute;
-        right: 0;
-        bottom: 0;
     }
 
     .time_show{
@@ -279,6 +276,12 @@ permalink: /music/
 
     #my_music{
         height:100px;
+    }
+
+    #player_position{
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 
 </style>
@@ -561,5 +564,7 @@ permalink: /music/
 </div>
 </div>
 
+<div id="player_position">
+    <audio id="au" src="" onloadeddata="play_while_loaded()"></audio>
+</div>
 
-<audio id="au" src="" onloadeddata="play_while_loaded()"></audio>

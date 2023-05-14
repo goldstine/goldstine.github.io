@@ -187,7 +187,7 @@ permalink: /music/
     }
 
     .play_or_suspend{
-        background-image: url("./RE/bofang.png");
+        background-image: url("../images/RE/bofang.png");
     }
 
     .music_control_button:hover{
@@ -200,7 +200,7 @@ permalink: /music/
     }
 
     .stop{
-        background-image: url("./RE/tingzhi.png");
+        background-image: url("../images/RE/tingzhi.png");
     }
 
     body{
@@ -267,11 +267,11 @@ permalink: /music/
     }
 
     #up{
-        background-image: url("./RE/anniu_jiantouxiangzuo.png");
+        background-image: url("../images/RE/anniu_jiantouxiangzuo.png");
     }
 
     #next{
-        background-image: url("./RE/anniu-jiantouxiangyou.png");
+        background-image: url("../images/RE/anniu-jiantouxiangyou.png");
     }
 
 </style>
@@ -282,12 +282,12 @@ permalink: /music/
         if(is_play){
             is_play=0;
             document.getElementById("au").pause();
-            document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/bofang.png')";
+            document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/bofang.png')";
             document.getElementById("process_inside").style.backgroundColor="rgb(95,95,95)";
         }else{
             is_play=1;
             document.getElementById("au").play();
-            document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/zanting.png')";
+            document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/zanting.png')";
             document.getElementById("process_inside").style.backgroundColor="rgb(0,120,215)";
         }
     }
@@ -296,7 +296,7 @@ permalink: /music/
         is_play=0;
         document.getElementById("au").pause();
         document.getElementById("au").currentTime="0";
-        document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/bofang.png')";
+        document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/bofang.png')";
         document.getElementById("process_inside").style.backgroundColor="rgb(95,95,95)";
     }
 
@@ -317,7 +317,7 @@ permalink: /music/
             }
             if(!auto_next && is_play){
                 is_play=0;
-                document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/bofang.png')";
+                document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/bofang.png')";
                 document.getElementById("process_inside").style.backgroundColor="rgb(95,95,95)";
             }
         }
@@ -353,12 +353,12 @@ permalink: /music/
         if(document.getElementById("au").paused){
             is_play=0;
             document.getElementById("au").pause();
-            document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/bofang.png')";
+            document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/bofang.png')";
             document.getElementById("process_inside").style.backgroundColor="rgb(95,95,95)";
         }else{
             is_play=1;
             document.getElementById("au").play();
-            document.getElementById("play_or_suspend").style.backgroundImage="url('./RE/zanting.png')";
+            document.getElementById("play_or_suspend").style.backgroundImage="url('../images/RE/zanting.png')";
             document.getElementById("process_inside").style.backgroundColor="rgb(0,120,215)";
         }
 
@@ -366,15 +366,15 @@ permalink: /music/
 
         switch (auto_next){
             case 0:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/danxuanweixuanzhong.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danxuanweixuanzhong.png')";
                 document.getElementById("auto_next").title="当前无操作";
                 break;
             case 1:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/danquxunhuan.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danquxunhuan.png')";
                 document.getElementById("auto_next").title="当前单曲循环";
                 break;
             case 2:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/xunhuanbofang.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/xunhuanbofang.png')";
                 document.getElementById("auto_next").title="当前循环播放";
                 break;
         }
@@ -494,15 +494,15 @@ permalink: /music/
     function change_auto_next(){
         if(auto_next==2){
             auto_next=0;
-            document.getElementById("auto_next").style.backgroundImage="url('./RE/danxuanweixuanzhong.png')";
+            document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danxuanweixuanzhong.png')";
             document.getElementById("auto_next").title="当前无操作";
         }else if(!auto_next){
             auto_next=1;
-            document.getElementById("auto_next").style.backgroundImage="url('./RE/danquxunhuan.png')";
+            document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danquxunhuan.png')";
             document.getElementById("auto_next").title="当前单曲循环";
         }else{
             auto_next=2;
-            document.getElementById("auto_next").style.backgroundImage="url('./RE/xunhuanbofang.png')";
+            document.getElementById("auto_next").style.backgroundImage="url('../images/RE/xunhuanbofang.png')";
             document.getElementById("auto_next").title="当前循环播放";
         }
         localStorage.setItem("auto_next",auto_next);
@@ -516,15 +516,15 @@ permalink: /music/
         }
         switch (auto_next){
             case 0:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/danxuanweixuanzhong.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danxuanweixuanzhong.png')";
                 document.getElementById("auto_next").title="当前无操作";
                 break;
             case 1:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/danquxunhuan.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/danquxunhuan.png')";
                 document.getElementById("auto_next").title="当前单曲循环";
                 break;
             case 2:
-                document.getElementById("auto_next").style.backgroundImage="url('./RE/xunhuanbofang.png')";
+                document.getElementById("auto_next").style.backgroundImage="url('../images/RE/xunhuanbofang.png')";
                 document.getElementById("auto_next").title="当前循环播放";
                 break;
         }

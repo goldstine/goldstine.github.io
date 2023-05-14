@@ -11,8 +11,31 @@ permalink: /photos/
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    asasas
+    <div><p>R</p></div>
+
+    <div class="wrapper">
+		<img src="../images/cube/front.jpg" alt="front">
+		<img src="../images/cube/back.jpg" alt="back">
+		<img src="../images/cube/left.jpg" alt="left">
+		<img src="../images/cube/right.jpg" alt="right">
+		<img src="../images/cube/top.jpg" alt="top">
+		<img src="../images/cube/bottom.jpg" alt="bottom">
+		<img src="../images/cube/left.jpg" alt="left">
+		<img src="../images/cube/right.jpg" alt="right">
+	</div>
+	
+	<script>
+		document.body.onmousemove = function (e){
+			this.style.perspectiveOrigin = "" + e.pageX + "px" + e.pageY + "px";
+			// console.log(e.pageX + "px" + e.pageY + "px");
+			// console.log("something wrong");
+		}
+
+		console.log("引入成功");
+	</script>
+
 </body>
 </html>

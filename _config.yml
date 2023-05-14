@@ -28,6 +28,8 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
+  - name: Photo-Wall
+    url: /photos
 
 # Pagination
 paginate: 8

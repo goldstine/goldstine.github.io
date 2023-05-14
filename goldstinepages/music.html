@@ -104,9 +104,12 @@ permalink: /music/
         backdrop-filter: blur(40px);
         padding: 5px 5px;
         transition: all 500ms;
-        top: 55px;
+        /* top: 55px;
         left: 75px;
-        position: relative;
+        position: relative; */
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 
     .auto_player:hover{
@@ -276,12 +279,6 @@ permalink: /music/
 
     #my_music{
         height:100px;
-    }
-
-    #player_position{
-        position: absolute;
-        right: 0;
-        bottom: 0;
     }
 
 </style>
@@ -564,7 +561,7 @@ permalink: /music/
 </div>
 </div>
 
-<div id="player_position">
-    <audio id="au" src="" onloadeddata="play_while_loaded()"></audio>
-</div>
+
+<audio id="au" src="" onloadeddata="play_while_loaded()"></audio>
+
 

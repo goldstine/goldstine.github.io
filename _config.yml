@@ -34,7 +34,7 @@ navigation:
     url: /music
   - name: Video
     url: /video
-  - name: Navigation
+  - name: 导航
     url: /navigation
 
 # Pagination

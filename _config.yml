@@ -33,7 +33,7 @@ navigation:
   - name: Music
     url: /music
   - name: Video
-    url: /video
+    url: /videoWeb
   - name: 导航
     url: /navigation
 

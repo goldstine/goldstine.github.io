@@ -87,7 +87,7 @@ d) Raycasting (Surface Prediction)：光线投影方法，计算物体表面点�
 关节点和方向    顶点和法向量 法向量只表示方向，所以单位化 不需要长度，也不需要平移
 
 **rgbd-kinect-poseRNN 根据Azure Kinect Body Tracking API检测到的关节估计身体姿势**
-![Azure Kinect body tracking joints](https://learn.microsoft.com/en-us/azure/kinect-dk/body-joints)
+[Azure Kinect body tracking joints](https://learn.microsoft.com/en-us/azure/kinect-dk/body-joints)
 
 Azure Kinect Body Tracking API:
 

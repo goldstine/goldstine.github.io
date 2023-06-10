@@ -76,10 +76,15 @@ c) Volumetric Integration (Update Reconstruction)：运用体积表面建模的�
 d) Raycasting (Surface Prediction)：光线投影方法，计算物体表面点坐标和法线，用于渲染和下一帧的Camera Tracking步骤中相机位姿求解。
 
 [Kinectfusion: Real-time dense surface mapping and tracking](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf)
+
 [KinectFusion: Real-time 3D Reconstruction and Interaction](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/kinectfusion-uist-comp.pdf)
+
 [A Volumetric Method for Building Complex Models fromRange Images](https://dl.acm.org/doi/pdf/10.1145/237170.237269)
+
 [KinectFusion论文阅读](https://zhuanlan.zhihu.com/p/35894630)
+
 [Kinect Fusion 算法浅析：精巧中带坑](https://zhuanlan.zhihu.com/p/24873528)
+
 [啥是KinectFusion](https://zhuanlan.zhihu.com/p/39021659)
 
 ### 深度图转变  Depth Map  conversion

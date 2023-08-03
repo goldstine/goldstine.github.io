@@ -71,8 +71,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 062eeb9a0adf39976274
-  clientSecret: 3c319e4cf4a90b70809d7fd1b25e4c6c10376a10
+  clientID: 149ae5e90055b6c2fc0e
+  clientSecret: 96d053527600c1d0c4f2ce2637ca98aea2726a0b
   repo: sharkLoc.github.io
   owner: sharkLoc
 

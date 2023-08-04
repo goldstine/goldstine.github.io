@@ -30,7 +30,7 @@ navigation:
     url: /tags
 
 # Pagination
-paginate: 8
+paginate: 4
 
 excerpt_separator: <!-- more -->
 

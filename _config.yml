@@ -28,9 +28,17 @@ navigation:
     url: /archive
   - name: 标签
     url: /tags
+  - name: Img
+    url: /photos
+  - name: Music
+    url: /music
+  - name: Video
+    url: /video
+  - name: 导航
+    url: /navigation
 
 # Pagination
-paginate: 4
+paginate: 8
 
 excerpt_separator: <!-- more -->
 

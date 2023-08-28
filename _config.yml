@@ -1,11 +1,5 @@
-#
-# This file contains configuration flags to customize your site
-#
-
-# Name of your site (displayed in the header)
-name: "goldstine's blog"
-# Short bio or description (displayed in the header)
-description: "个人技术公众号：Goldstine  分享编程资源 | 学习路线"
+name: "Softdefender's blog"
+description: "Blog Repo"
 
 #
 # Flags below are optional
@@ -47,11 +41,11 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: goldstine
-  email: 15797899690@163.com
+  zhihu: 
+  email: 
   facebook:
   flickr:
-  github: goldstine 
+  github: SoftDefender 
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -63,7 +57,7 @@ footer-links:
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2023 goldstine
+footer-text: Copyright (c) 2023 SoftDefender
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -71,17 +65,17 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 062eeb9a0adf39976274
-  clientSecret: 3c319e4cf4a90b70809d7fd1b25e4c6c10376a10
-  repo: goldstine.github.io
-  owner: goldstine
+  clientID: 87bfcac88877f76be1c1
+  clientSecret: caa35682950d8a65f17b1ca7b7d0341020a6729a
+  repo: SoftDefender.github.io
+  owner: SoftDefender
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics: 
+google_analytics:  G-FM3CQC3R2S
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://goldstine.github.io
+url: https://SoftDefender.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

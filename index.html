@@ -98,9 +98,9 @@ layout: default
   })
 </script>
 
-<!-- 修改 by goldstine 2023-05-13 -->
+<!-- Changed by Andres 2023-12-10 -->
 <div>
-  <p>2023-05-13</p>
+  
 </div>
 
 {% if site.posts.size == 0 %}
@@ -145,14 +145,14 @@ layout: default
   {% if paginator.previous_page %}
     <span class="prev">
       <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="prev">
-        ← 上一页
+        ← Last Page
       </a>
     </span>
   {% endif %}
   {% if paginator.next_page %}
     <span class="next">
       <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
-        下一页 →
+        Next Page →
       </a>
     </span>
   {% endif %}

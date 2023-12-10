@@ -1,15 +1,15 @@
 # Problems in the interaction between humans and car-machine systems
 
+
 ### Introduction
 With the increasing integration of technology in modern vehicles, it is critical to understand and solve the information processing problems that arise during the interaction between humans and vehicle systems. Successfully integrating autonomous vehicles into transportation systems requires addressing several challenges, including the design of effective human-machine interface (HMI) systems. This literature review will explore the current state of research on HMI design for autonomous vehicles, identify issues and challenges, and propose potential solutions.
 
 
 
+---
+### Part 1: Literature Review and Identify Problems
 
-## Part 1: Literature Review and Identify Problems
-
-### 1.1 Literature review
-![SMPL-X](https://cdn.jsdelivr.net/gh/goldstine/MyImages/smpl.png)
+#### 1.1 Literature review
 The development of automated cars has been a topic of interest for researchers and engineers for several decades. The potential benefits of automated cars include increased safety, reduced traffic congestion, and improved fuel efficiency. However, the successful integration of automated cars into the transportation system requires addressing several challenges, including the design of effective Human Machine Interface (HMI) systems.
 
 Several studies have investigated the design of HMI systems for automated cars. One study by Carsten and Hagenzieker (2019) proposed design principles for in-vehicle HMI systems, including the need for clear and concise information, intuitive interfaces, and effective communication between the driver and the automated system. Another study by Stanton et al. (2018) highlighted the importance of designing HMI systems that are adaptable to different driving scenarios and driver preferences.
@@ -17,7 +17,7 @@ Several studies have investigated the design of HMI systems for automated cars. 
 Despite the progress made in HMI design for automated cars, several challenges remain. One challenge is the potential for driver disengagement from the driving task. Automated cars may lead to a false sense of security, causing drivers to become complacent and less attentive to the road. This problem is compounded by the fact that automated cars may require drivers to take over control of the vehicle in certain situations, such as when the automated system encounters an unexpected obstacle.
 
 
-###1.2 Problems
+####1.2 Problems
 Based on the literature review, several problems can be identified in the design of HMI systems for automated cars. These problems include:
 1. Driver disengagement from the driving task due to a false sense of security provided by the automated system.
 2. Driver confusion and misunderstanding of the automated system due to non-standardized interfaces and symbols.
@@ -28,14 +28,9 @@ Addressing these problems will require further research and development in the d
 
 
 ---
-## Part 2: Design Implications for Resolving the Phenomenon
+### Part 2: Design Implications for Resolving the Phenomenon
 
-
-
-[多边形网格Polygon_mesh](https://en.wikipedia.org/wiki/Polygon_mesh)
-
-[AAAI2020 Microsoft:A human body could be represented by a 3D mesh](https://arxiv.org/abs/1905.13143)
-2.1 Solving these problems --- Standardized HMI designing. 
+####2.1 Solving these problems --- Standardized HMI designing. 
 One design implication to solve the problem of driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols is to implement a standardized HMI design framework. The framework will establish guidelines for the design of HMI systems for autonomous vehicles, including the use of standardized symbols and interfaces. The framework will be developed through collaboration between industry stakeholders including automakers, technology companies and regulators.
 
 Driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols is a significant issue in autonomous vehicle development. Self-driving cars may use different symbols and interfaces than traditional cars, causing driver confusion and frustration. Additionally, a lack of standardization in HMI design for autonomous vehicles could lead to a proliferation of different approaches, further complicating drivers’ understanding of the system. A standardized HMI design framework will address this issue by establishing design guidelines for autonomous automotive HMI systems.
@@ -47,14 +42,14 @@ A standardized HMI design framework will include guidelines for the use of stand
 A standardized HMI design framework will also include guidelines for the layout and organization of HMI display information. These guidelines will ensure that information provided to drivers is clear, concise, and easy to understand. The layout and organization of information is designed to minimize the driver's cognitive load and enhance their cognitive abilities.
 
 
-### 2.2 Use of Figures and Demonstrations
+#### 2.2 Use of Figures and Demonstrations
 To demonstrate the importance of standardized HMI design, Figure 1 provides a simplified model of the most important concepts. The figure shows that if the reliability of technical systems increases, it benefits both comfort and trust, both of which increase. However, response times also increase, and automation introduces surprises, all with potential negative security impacts. Note that as system reliability increases, automation surprises will occur less frequently, but the impact will be more severe when they occur. Situational awareness and vigilance (attention) are reduced, as is trust calibration.
 
 Figure 1 highlights the importance of balancing technical system reliability with human factors issues such as negligence and trust. The figure shows that increasing system reliability can increase comfort and trust, but can also lead to negative security impacts, such as increased response times and automation surprises. This demonstrates the need for a standardized HMI design framework that considers both technical and human factors to ensure safe and effective collaboration between human drivers and autonomous vehicles.
 
 In summary, using graphics and demonstrations is an effective way to illustrate the importance of standardized HMI design for safe and effective collaboration between human drivers and autonomous vehicles. Figures 1 illustrates the need for a standardized HMI design framework that considers technical and human factors and establishes usage guidelines for symbols and interfaces to ensure driver consistency and clarity.
 
-###2.3 A New Direction – Minimalist Design
+####2.3 A New Direction – Minimalist Design
 According to Julia Kindelsberger, Lex Fridman, Michael Glazer           &Bryan Reimer (2018), minimalist design is a design approach that starts from the ground up, adding only the absolute minimum necessary to create a safe and enjoyable driving experience. The authors propose that this approach can create a more spacious and elegant interior while still providing the driver with necessary information.
 
 To achieve a minimalist design of a vehicle HMI, this article proposes a design decision-making process that begins with asking “why?” rather than “why not?” when selecting what information to add to the vehicle HMI. The authors believe that this approach can help designers avoid adding unnecessary information and instead focus on the absolute minimum required to create a safe and enjoyable driving experience.
@@ -65,7 +60,7 @@ Overall, the minimalist design of the vehicle HMI results in a safe, beautiful, 
 
 
 ---
-## Part 3: Expected Results
+### Part 3: Expected Results
 To solve the problem of driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols, our proposed solution is to implement a standardized HMI design framework. This framework will establish guidelines for the design of HMI systems for autonomous vehicles, including the use of standardized symbols and interfaces.
 
 To evaluate the effectiveness of the solution, we can develop a test and evaluation plan. The program will involve conducting user studies to assess the usability and effectiveness of a standardized HMI design framework and will involve a sample of drivers with experience in both conventional and autonomous vehicles.
@@ -80,20 +75,24 @@ The study's insights into specific aspects of the standardized framework's effec
 
 In summary, the proposed standardized HMI design framework holds promise in mitigating driver confusion in automated systems. The test and evaluation program anticipates providing valuable insights, fostering safer and more efficient collaboration between human drivers and autonomous vehicles.
 
-
+---
+###Videos
 
 ---
-# References
-Strayer, D. L., Cooper, J. M., Goethe, R. M., McCarty, M. M., Getty, D. J., & Biondi, F. Assessing the visual and cognitive demands of in-vehicle information systems.
+### References
+<response>
+[Strayer, D. L., Cooper, J. M., Goethe, R. M., McCarty, M. M., Getty, D. J., & Biondi, F. Assessing the visual and cognitive demands of in-vehicle information systems](https://psycnet.apa.org/record/2019-37965-001).
 
-Carsten, O., & Martens, M. H. How can humans understand their automated cars? HMI principles, problems, and solutions. 
+[Carsten, O., & Martens, M. H. How can humans understand their automated cars? HMI principles, problems, and solutions](https://link.springer.com/article/10.1007/s10111-018-0484-0).
 
-Kindelsberger, J., Fridman, L., Glazer, M., & Reimer, B. (2018). Designing Toward Minimalism in Vehicle HMI.
+[Kindelsberger, J., Fridman, L., Glazer, M., & Reimer, B. (2018). Designing Toward Minimalism in Vehicle HMI](https://arxiv.org/abs/1805.02787).
 
-Castro, S., Cooper, J., & Strayer, D. (2016). Validating two assessment strategies for visual and cognitive load in a simulated driving task. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 60(1), 1899–1903.
+[Castro, S., Cooper, J., & Strayer, D. (2016). Validating two assessment strategies for visual and cognitive load in a simulated driving task](https://www.researchgate.net/publication/307946282_Validating_Two_Assessment_Strategies_for_Visual_and_Cognitive_Load_in_a_Simulated_Driving_Task).
 
-Engström, J., & Markkula, G. (2007). Effects of visual and cognitive distraction on lane change test performance. In D. V. McGehee, J. D. Lee, & M. Rizzo (Eds.), Proceedings of the Fourth International Symposium on Human Factors in Driver Assessment, Training, and Vehicle Design, (pp. 199–203). Published by the Public Policy Center, University of Iowa.
+[Engström, J., & Markkula, G. (2007). Effects of visual and cognitive distraction on lane change test performance](https://pubs.lib.uiowa.edu/driving/article/id/28286/).
 
-Japan Automobile Manufacturers Association (2004). Guideline for In-Vehicle Display Systems, Version 3.0. Tokyo: Japan Automobile Manufacturers Association.
+[Japan Automobile Manufacturers Association (2004). Guideline for In-Vehicle Display Systems, Version 3.0](https://www.jama.or.jp/operation/safety/display_system/pdf/jama_guidelines_v30_en.pdf).
+
+</response>
 
 

@@ -22,7 +22,7 @@ favicon: https://cdn.jsdelivr.net/gh/LionelJiang/LionelJiang.github.io/images/fa
 navigation:
   - name: FrontPage
     url: /
-  - name: About
+  - name: My Resume
     url: /about
   - name: Archive
     url: /archive

@@ -1,5 +1,9 @@
+
 # Problems in the interaction between humans and car-machine systems
 
+**Table of Contents**
+
+[TOC]
 
 ### Introduction
 With the increasing integration of technology in modern vehicles, it is critical to understand and solve the information processing problems that arise during the interaction between humans and vehicle systems. Successfully integrating autonomous vehicles into transportation systems requires addressing several challenges, including the design of effective human-machine interface (HMI) systems. This literature review will explore the current state of research on HMI design for autonomous vehicles, identify issues and challenges, and propose potential solutions.
@@ -17,7 +21,7 @@ Several studies have investigated the design of HMI systems for automated cars. 
 Despite the progress made in HMI design for automated cars, several challenges remain. One challenge is the potential for driver disengagement from the driving task. Automated cars may lead to a false sense of security, causing drivers to become complacent and less attentive to the road. This problem is compounded by the fact that automated cars may require drivers to take over control of the vehicle in certain situations, such as when the automated system encounters an unexpected obstacle.
 
 
-####1.2 Problems
+#### 1.2 Problems
 Based on the literature review, several problems can be identified in the design of HMI systems for automated cars. These problems include:
 1. Driver disengagement from the driving task due to a false sense of security provided by the automated system.
 2. Driver confusion and misunderstanding of the automated system due to non-standardized interfaces and symbols.
@@ -49,7 +53,7 @@ Figure 1 highlights the importance of balancing technical system reliability wit
 
 In summary, using graphics and demonstrations is an effective way to illustrate the importance of standardized HMI design for safe and effective collaboration between human drivers and autonomous vehicles. Figures 1 illustrates the need for a standardized HMI design framework that considers technical and human factors and establishes usage guidelines for symbols and interfaces to ensure driver consistency and clarity.
 
-####2.3 A New Direction – Minimalist Design
+#### 2.3 A New Direction – Minimalist Design
 According to Julia Kindelsberger, Lex Fridman, Michael Glazer           &Bryan Reimer (2018), minimalist design is a design approach that starts from the ground up, adding only the absolute minimum necessary to create a safe and enjoyable driving experience. The authors propose that this approach can create a more spacious and elegant interior while still providing the driver with necessary information.
 
 To achieve a minimalist design of a vehicle HMI, this article proposes a design decision-making process that begins with asking “why?” rather than “why not?” when selecting what information to add to the vehicle HMI. The authors believe that this approach can help designers avoid adding unnecessary information and instead focus on the absolute minimum required to create a safe and enjoyable driving experience.
@@ -76,7 +80,7 @@ The study's insights into specific aspects of the standardized framework's effec
 In summary, the proposed standardized HMI design framework holds promise in mitigating driver confusion in automated systems. The test and evaluation program anticipates providing valuable insights, fostering safer and more efficient collaboration between human drivers and autonomous vehicles.
 
 ---
-###Videos
+### Videos
 
 ---
 ### References
@@ -94,5 +98,24 @@ In summary, the proposed standardized HMI design framework holds promise in miti
 [Japan Automobile Manufacturers Association (2004). Guideline for In-Vehicle Display Systems, Version 3.0](https://www.jama.or.jp/operation/safety/display_system/pdf/jama_guidelines_v30_en.pdf).
 
 </response>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -45,6 +45,7 @@ excerpt_separator: <!-- more -->
 # Includes an icon in the footer for each username you enter
 #footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+<<<<<<< HEAD
   #behance: # https://www.behance.net/<username>
   #dribbble:
   #zhihu: LionelJiang
@@ -58,6 +59,21 @@ excerpt_separator: <!-- more -->
   #pinterest:
   #rss: # just type anything here for a working RSS icon
   #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+=======
+  behance: # https://www.behance.net/<username>
+  dribbble:
+  zhihu: LionelJiang
+  email: jiangjinhan0708@gmail.com
+  facebook:
+  flickr:
+  github: LionelJiang 
+  googleplus: # anything in your profile username that comes after plus.google.com/
+  instagram:
+  linkedin: https://www.linkedin.com/in/andres-jinhan-jiang-a96578212/
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+>>>>>>> 596824309bcc3e8b2835699f0f42822351cecf78
   #tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
   #$youtube:

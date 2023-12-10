@@ -30,8 +30,6 @@ navigation:
     url: /tags
   - name: Photos
     url: /photos
-  - name: Navigation
-    url: /navigation
 
 # Pagination
 paginate: 8

@@ -3,38 +3,38 @@
 #
 
 # Name of your site (displayed in the header)
-name: "goldstine's blog"
+name: "Andres Blog"
 # Short bio or description (displayed in the header)
-description: "个人技术公众号：Goldstine  分享编程资源 | 学习路线"
+description: "Sharing My Points"
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/0.png
+avatar: https://cdn.jsdelivr.net/gh/LionelJiang/LionelJiang.github.io/images/0.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/LionelJiang/LionelJiang.github.io/images/favicon.ico
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 首页
+  - name: FrontPage
     url: /
-  - name: 关于
+  - name: About
     url: /about
-  - name: 归档
+  - name: Archive
     url: /archive
-  - name: 标签
+  - name: Tags
     url: /tags
-  - name: Img
+  - name: Photos
     url: /photos
   - name: Music
     url: /music
   - name: Video
     url: /video
-  - name: 导航
+  - name: Navigation
     url: /navigation
 
 # Pagination
@@ -43,27 +43,27 @@ paginate: 8
 excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
-footer-links:
+#footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
-  behance: # https://www.behance.net/<username>
-  dribbble:
-  zhihu: goldstine
-  email: 15797899690@163.com
-  facebook:
-  flickr:
-  github: goldstine 
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
+  #behance: # https://www.behance.net/<username>
+  #dribbble:
+  #zhihu: LionelJiang
+  #email: jiangjinhan0708@gmail.com
+  #facebook:
+  #flickr:
+  #github: LionelJiang 
+  #googleplus: # anything in your profile username that comes after plus.google.com/
+  #instagram:
+  #linkedin: https://www.linkedin.com/in/andres-jinhan-jiang-a96578212/
+  #pinterest:
+  #rss: # just type anything here for a working RSS icon
+  #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  #tumblr: # https://<username>.tumblr.com
   #twitter: frommidworld
-  youtube:
+  #$youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2023 goldstine
+footer-text: Copyright (c) 2023 AndresJiang
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -73,15 +73,15 @@ disqus: # fromendworld
 gitalk:
   clientID: 062eeb9a0adf39976274
   clientSecret: 3c319e4cf4a90b70809d7fd1b25e4c6c10376a10
-  repo: goldstine.github.io
-  owner: goldstine
+  repo: LionelJiang.github.io
+  owner: LionelJiang
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://goldstine.github.io
+url: https://LionelJiang.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

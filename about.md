@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## About me
+## My Resume
 
-##Andres Jiang
 ![Alt text](image-5.png)
 

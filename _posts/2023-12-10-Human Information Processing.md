@@ -64,15 +64,15 @@ Overall, the minimalist design of the vehicle HMI results in a safe, beautiful, 
 #### 2.4 HMI Design Principles
 ##### 2.4.1.Reduce visual load
 The process of users identifying and searching for information on the screen is considered visual load. Drivers often use HMI while driving. User attention management is very necessary to reduce traffic accidents caused by distraction. Therefore, it is particularly important to quickly identify and find the content the user wants. We can reduce the operating load by Follow a few principles.
-**Efficient browsing: **When setting information levels, drivers can set information more quickly. This can be achieved through contrasting design techniques to ensure that drivers can have efficient browsing while driving and reduce driver safety. visual capture cost
-**3-second principle: **User attention management is very necessary to reduce traffic accidents caused by distraction. During driving, necessary operations need to follow the 3-second principle. Users must find the key information and function entrances of the application scenario within the first second. , then perform interactive actions in the 2nd second, and finally get the desired information result in the 3rd second. Accurately grasp the time in each process, eliminate interference from unnecessary elements, and avoid distracting attention.
-**Information visualization principles: **the practice of presenting data in an intuitive way with clear meaning, making it interpretable and easy for users to understand. This includes data visualization and dashboards. For non-experts, information visualization is an effective way to share insights in an easy-to-understand form.
+**Efficient browsing:** When setting information levels, drivers can set information more quickly. This can be achieved through contrasting design techniques to ensure that drivers can have efficient browsing while driving and reduce driver safety. visual capture cost
+**3-second principle:** User attention management is very necessary to reduce traffic accidents caused by distraction. During driving, necessary operations need to follow the 3-second principle. Users must find the key information and function entrances of the application scenario within the first second. , then perform interactive actions in the 2nd second, and finally get the desired information result in the 3rd second. Accurately grasp the time in each process, eliminate interference from unnecessary elements, and avoid distracting attention.
+**Information visualization principles:** The practice of presenting data in an intuitive way with clear meaning, making it interpretable and easy for users to understand. This includes data visualization and dashboards. For non-experts, information visualization is an effective way to share insights in an easy-to-understand form.
 ##### 2.4.2 Reduce operating load
 When driving, the driver should try to keep the operation path as short as possible. If the operation is too complicated and there are too many steps, he may give up midway. This is the impact of action load.
-**Quick response: **Drivers often perform interface operations during driving. For the safety of drivers, operations should be easier, such as prominently used functions and short operation paths.
+**Quick response:** Drivers often perform interface operations during driving. For the safety of drivers, operations should be easier, such as prominently used functions and short operation paths.
 **Timely feedback:** In actual driving scenarios, we are faced with complex road condition information, which needs to be immediately fed back to our drivers through vision, design, sound, etc.
 **Silent interaction:** Silent interaction is quietly integrated into our daily use, without much thinking or special attention. As a tool, the car and engine should not become the center of attention of the driver and steal his attention. In future designs, allowing users to focus on “tasks” rather than tools is the ultimate destination of in-vehicle HMI interaction.
-**Voice interaction: **Voice interaction can quickly find the content the user wants, avoid driving distractions, and make driving safer. Currently, most car machines are equipped with voice assistants, which have become a standard feature of car machines.
+**Voice interaction:** Voice interaction can quickly find the content the user wants, avoid driving distractions, and make driving safer. Currently, most car machines are equipped with voice assistants, which have become a standard feature of car machines.
 ##### 2.4.3 Reduce psychological load
 The psychological pressure that users experience due to certain reasons when processing tasks is called psychological load. Mental load will prevent users from successfully completing tasks, so reducing mental load can improve task completion rates.
 **Reduce user anxiety: **Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
@@ -95,6 +95,11 @@ The study's insights into specific aspects of the standardized framework's effec
 In summary, the proposed standardized HMI design framework holds promise in mitigating driver confusion in automated systems. The test and evaluation program anticipates providing valuable insights, fostering safer and more efficient collaboration between human drivers and autonomous vehicles.
 
 ---
+### Videos
+ <iframe height=420 width=600 src="https://www.youtube.com/embed/uRv5jmr7QCU">
+ </iframe>
+
+ ---
 ### References
 <response>
 [Strayer, D. L., Cooper, J. M., Goethe, R. M., McCarty, M. M., Getty, D. J., & Biondi, F. Assessing the visual and cognitive demands of in-vehicle information systems](https://psycnet.apa.org/record/2019-37965-001).
@@ -110,9 +115,6 @@ In summary, the proposed standardized HMI design framework holds promise in miti
 [Japan Automobile Manufacturers Association (2004). Guideline for In-Vehicle Display Systems, Version 3.0](https://www.jama.or.jp/operation/safety/display_system/pdf/jama_guidelines_v30_en.pdf).
 
 </response>
----
-### Videos
- <iframe height=420 width=600 src="https://www.youtube.com/embed/uRv5jmr7QCU">
 
 
 

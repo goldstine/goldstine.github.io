@@ -98,7 +98,7 @@ The psychological pressure that users experience due to certain reasons when pro
 4.Integrate brand cultural elements to ensure that HMI design is integrated with the car brand, strengthen the brand image, and make HMI the key to vehicle software solutions.
 5.Emphasizing that HMI is not just an attraction, but one of the key elements of the entire vehicle software solution, builds trust between the system and the driver, and adopts HMI human-computer interaction design to ensure a more effective interactive experience in the automotive environment.
 
-We can get a solution just like the following picture.
+We can get a solution just like the following picture.In this solution, its overall design complies with all the above HMI design guidelines. First, in terms of design elements, it has been extremely simplified while being as functionally complete as possible. We can see that the column on the left is the function bar of the car, including driving status, navigation, music, car settings and home page. The column below is the air-conditioning settings. Five buttons and two draggable bars can meet the most basic air-conditioning use. Then, we adopted dark mode to complete the HMI design. On the homepage, we have maintained the consistency of the overall style, whether it is the size of each component or the rounded corners and shadow design.
 ![](hmi-1.jpg)
 
 ---

@@ -34,7 +34,7 @@ Addressing these problems will require further research and development in the d
 ---
 ### Part 2: Design Implications for Resolving the Phenomenon
 
-####2.1 Solving these problems --- Standardized HMI designing. 
+#### 2.1 Solving these problems --- Standardized HMI designing. 
 One design implication to solve the problem of driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols is to implement a standardized HMI design framework. The framework will establish guidelines for the design of HMI systems for autonomous vehicles, including the use of standardized symbols and interfaces. The framework will be developed through collaboration between industry stakeholders including automakers, technology companies and regulators.
 
 Driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols is a significant issue in autonomous vehicle development. Self-driving cars may use different symbols and interfaces than traditional cars, causing driver confusion and frustration. Additionally, a lack of standardization in HMI design for autonomous vehicles could lead to a proliferation of different approaches, further complicating drivers’ understanding of the system. A standardized HMI design framework will address this issue by establishing design guidelines for autonomous automotive HMI systems.
@@ -62,24 +62,40 @@ The paper also proposes a fully software-controlled HMI, giving automotive engin
 
 Overall, the minimalist design of the vehicle HMI results in a safe, beautiful, and satisfying driving experience. By starting from scratch and adding only the absolute minimum necessary to create a safe and enjoyable driving experience, designers can avoid overwhelming the driver with unnecessary information.
 #### 2.4 HMI Design Principles
+![](https://star.global/_next/image/?url=https%3A%2F%2Fcms.star.global%2Fwp-content%2Fuploads%2F2022%2F05%2FHMI-design-best-practices-EN.jpeg&w=2048&q=75)
+>HMI design steps and best practices
+
 ##### 2.4.1.Reduce visual load
 The process of users identifying and searching for information on the screen is considered visual load. Drivers often use HMI while driving. User attention management is very necessary to reduce traffic accidents caused by distraction. Therefore, it is particularly important to quickly identify and find the content the user wants. We can reduce the operating load by Follow a few principles.
+
 **Efficient browsing:** When setting information levels, drivers can set information more quickly. This can be achieved through contrasting design techniques to ensure that drivers can have efficient browsing while driving and reduce driver safety. visual capture cost
+
 **3-second principle:** User attention management is very necessary to reduce traffic accidents caused by distraction. During driving, necessary operations need to follow the 3-second principle. Users must find the key information and function entrances of the application scenario within the first second. , then perform interactive actions in the 2nd second, and finally get the desired information result in the 3rd second. Accurately grasp the time in each process, eliminate interference from unnecessary elements, and avoid distracting attention.
+
 **Information visualization principles:** The practice of presenting data in an intuitive way with clear meaning, making it interpretable and easy for users to understand. This includes data visualization and dashboards. For non-experts, information visualization is an effective way to share insights in an easy-to-understand form.
+
 ##### 2.4.2 Reduce operating load
 When driving, the driver should try to keep the operation path as short as possible. If the operation is too complicated and there are too many steps, he may give up midway. This is the impact of action load.
+
 **Quick response:** Drivers often perform interface operations during driving. For the safety of drivers, operations should be easier, such as prominently used functions and short operation paths.
+
 **Timely feedback:** In actual driving scenarios, we are faced with complex road condition information, which needs to be immediately fed back to our drivers through vision, design, sound, etc.
+
 **Silent interaction:** Silent interaction is quietly integrated into our daily use, without much thinking or special attention. As a tool, the car and engine should not become the center of attention of the driver and steal his attention. In future designs, allowing users to focus on “tasks” rather than tools is the ultimate destination of in-vehicle HMI interaction.
+
 **Voice interaction:** Voice interaction can quickly find the content the user wants, avoid driving distractions, and make driving safer. Currently, most car machines are equipped with voice assistants, which have become a standard feature of car machines.
+
 ##### 2.4.3 Reduce psychological load
 The psychological pressure that users experience due to certain reasons when processing tasks is called psychological load. Mental load will prevent users from successfully completing tasks, so reducing mental load can improve task completion rates.
-**Reduce user anxiety: **Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
 
+**Reduce user anxiety:**Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
+
+#### 2.5 New HMI Solution
 
 ---
-### Part 3: Expected Results
+### Part 3: Evaluation Plan and Expected Results
+
+#### 3.1 Evaluation Plan
 To solve the problem of driver confusion and misunderstanding of automated systems due to non-standardized interfaces and symbols, our proposed solution is to implement a standardized HMI design framework. This framework will establish guidelines for the design of HMI systems for autonomous vehicles, including the use of standardized symbols and interfaces.
 
 To evaluate the effectiveness of the solution, we can develop a test and evaluation plan. The program will involve conducting user studies to assess the usability and effectiveness of a standardized HMI design framework and will involve a sample of drivers with experience in both conventional and autonomous vehicles.
@@ -88,6 +104,7 @@ Additionally, the study will be conducted in a controlled environment (such as a
 
 Several variables will be the focus of this study, including the time required to complete the task, the number of errors made, and participants' subjective ratings of the usability and effectiveness of the automotive HMI system. The data collected after the survey will be analyzed using scientific statistical methods to determine the effectiveness of the standardized HMI design framework.
 
+#### 3.2  Expected Results
 The standardized framework aims to enhance the usability and effectiveness of autonomous automotive HMIs by reducing confusion and frustration through standardized symbols. The organized information layout minimizes cognitive load, improving drivers' ability to monitor automated systems.
 
 The study's insights into specific aspects of the standardized framework's effectiveness will inform refinements, enhancing overall efficacy.
@@ -95,13 +112,15 @@ The study's insights into specific aspects of the standardized framework's effec
 In summary, the proposed standardized HMI design framework holds promise in mitigating driver confusion in automated systems. The test and evaluation program anticipates providing valuable insights, fostering safer and more efficient collaboration between human drivers and autonomous vehicles.
 
 ---
-### Videos
+### Related Videos
  <iframe height=420 width=600 src="https://www.youtube.com/embed/uRv5jmr7QCU">
+ </iframe>
+ <iframe height=420 width=600 src="https://www.youtube.com/embed/6UTVe-5vWUA">
  </iframe>
 
  ---
 ### References
-<response>
+
 [Strayer, D. L., Cooper, J. M., Goethe, R. M., McCarty, M. M., Getty, D. J., & Biondi, F. Assessing the visual and cognitive demands of in-vehicle information systems](https://psycnet.apa.org/record/2019-37965-001).
 
 [Carsten, O., & Martens, M. H. How can humans understand their automated cars? HMI principles, problems, and solutions](https://link.springer.com/article/10.1007/s10111-018-0484-0).
@@ -114,7 +133,7 @@ In summary, the proposed standardized HMI design framework holds promise in miti
 
 [Japan Automobile Manufacturers Association (2004). Guideline for In-Vehicle Display Systems, Version 3.0](https://www.jama.or.jp/operation/safety/display_system/pdf/jama_guidelines_v30_en.pdf).
 
-</response>
+
 
 
 

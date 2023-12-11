@@ -3,6 +3,7 @@
 
 **Table of Contents**
 
+
 [TOC]
 
 ### Introduction
@@ -91,6 +92,14 @@ The psychological pressure that users experience due to certain reasons when pro
 **Reduce user anxiety:**Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
 
 #### 2.5 New HMI Solution
+1.Design a simple and intuitive interface with a standardized user interaction model to reduce the potential for driver distraction.
+2.Emphasize the development of shared HMI rules to resolve confusion caused by different solutions on the market and promote standardized design.
+3.Adopt dark mode. According to research, dark UI is more suitable in automotive environments.
+4.Integrate brand cultural elements to ensure that HMI design is integrated with the car brand, strengthen the brand image, and make HMI the key to vehicle software solutions.
+5.Emphasizing that HMI is not just an attraction, but one of the key elements of the entire vehicle software solution, builds trust between the system and the driver, and adopts HMI human-computer interaction design to ensure a more effective interactive experience in the automotive environment.
+
+We can get a solution just like the following picture.
+![](hmi-1.jpg)
 
 ---
 ### Part 3: Evaluation Plan and Expected Results

@@ -1,9 +1,5 @@
 
 # Problems in the interaction between humans and car-machine systems
-
-**Table of Contents**
-[TOC]
-
 ### Introduction
 With the increasing integration of technology in modern vehicles, it is critical to understand and solve the information processing problems that arise during the interaction between humans and vehicle systems. Successfully integrating autonomous vehicles into transportation systems requires addressing several challenges, including the design of effective human-machine interface (HMI) systems. This literature review will explore the current state of research on HMI design for autonomous vehicles, identify issues and challenges, and propose potential solutions.
 
@@ -102,7 +98,7 @@ The psychological pressure that users experience due to certain reasons when pro
 
 We can get a solution just like the following picture.In this solution, its overall design complies with all the above HMI design guidelines. First, in terms of design elements, it has been extremely simplified while being as functionally complete as possible. We can see that the column on the left is the function bar of the car, including driving status, navigation, music, car settings and home page. The column below is the air-conditioning settings. Five buttons and two draggable bars can meet the most basic air-conditioning use. Then, we adopted dark mode to complete the HMI design. On the homepage, we have maintained the consistency of the overall style, whether it is the size of each component or the rounded corners and shadow design.
 
-![Alt text](hmi.png)
+![](https://github.com/LionelJiang/LionelJiang.github.io/blob/main/_posts/hmi.png)
 
 ---
 ### Part 3: Evaluation Plan and Expected Results

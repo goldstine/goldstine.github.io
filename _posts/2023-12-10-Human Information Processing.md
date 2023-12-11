@@ -98,7 +98,7 @@ The psychological pressure that users experience due to certain reasons when pro
 
 We can get a solution just like the following picture.In this solution, its overall design complies with all the above HMI design guidelines. First, in terms of design elements, it has been extremely simplified while being as functionally complete as possible. We can see that the column on the left is the function bar of the car, including driving status, navigation, music, car settings and home page. The column below is the air-conditioning settings. Five buttons and two draggable bars can meet the most basic air-conditioning use. Then, we adopted dark mode to complete the HMI design. On the homepage, we have maintained the consistency of the overall style, whether it is the size of each component or the rounded corners and shadow design.
 
-![](_posts/hmi.png)
+![](hmi.png)
 
 ---
 ### Part 3: Evaluation Plan and Expected Results

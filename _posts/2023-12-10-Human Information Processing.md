@@ -1,5 +1,8 @@
 
 # Problems in the interaction between humans and car-machine systems
+
+[TOC]
+
 ### Introduction
 With the increasing integration of technology in modern vehicles, it is critical to understand and solve the information processing problems that arise during the interaction between humans and vehicle systems. Successfully integrating autonomous vehicles into transportation systems requires addressing several challenges, including the design of effective human-machine interface (HMI) systems. This literature review will explore the current state of research on HMI design for autonomous vehicles, identify issues and challenges, and propose potential solutions.
 

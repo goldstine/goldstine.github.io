@@ -2,7 +2,6 @@
 # Problems in the interaction between humans and car-machine systems
 
 **Table of Contents**
-
 [TOC]
 
 ### Introduction
@@ -88,7 +87,7 @@ When driving, the driver should try to keep the operation path as short as possi
 ##### 2.4.3 Reduce psychological load
 The psychological pressure that users experience due to certain reasons when processing tasks is called psychological load. Mental load will prevent users from successfully completing tasks, so reducing mental load can improve task completion rates.
 
-**Reduce user anxiety:**Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
+**Reduce user anxiety:** Common methods for relieving anxiety on mobile phones include loading progress feedback, the number of people waiting in line... In driving scenarios, for example, when users have driving problems or major accidents occur, the system should provide encouragement and solutions to alleviate user anxiety.
 
 #### 2.5 New HMI Solution
 1.Design a simple and intuitive interface with a standardized user interaction model to reduce the potential for driver distraction.

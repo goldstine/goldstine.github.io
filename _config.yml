@@ -81,13 +81,13 @@ google_analytics: G-P0X8V18MNJ
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://Elysiamobi.github.io
+# url: https://Elysiamobi.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: /elysiamobi.github.io
+# baseurl: /elysiamobi.github.io
 
 #
 # !! You don't need to change any of the configuration flags below !!

@@ -71,10 +71,10 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 062eeb9a0adf39976274
-  clientSecret: 3c319e4cf4a90b70809d7fd1b25e4c6c10376a10
-  repo: goldstine.github.io
-  owner: goldstine
+  clientID: Ov23liZgzQXDCi8Ff86T
+  clientSecret: 7b12bec613fb305a302c00b3a1d7e4f3698a912d
+  repo: 2048lr.github.io
+  owner: 2048lr
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics: 

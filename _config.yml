@@ -61,8 +61,8 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: Ov23lihW1LVoIEZG9pbN
-  clientSecret: 9d71977f23d6e1d210a9e7455a114cb3f005848a
+  clientID: Ov23lilYz6dzOui7wBNJ
+  clientSecret: 800597c0f57c9e34c85dbcef504714a7ca537d87
   repo: frankyzqf.github.io
   owner: frankyzqf
 

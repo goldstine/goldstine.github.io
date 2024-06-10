@@ -63,7 +63,7 @@ disqus: # fromendworld
 gitalk:
   clientID: Ov23limFElVNh6nea9tU
   clientSecret: 6b5bc444debeb67a1670d6ac11bec8a9ba72d78f
-  repo: Frankyzqf.github.io
+  repo: pinglun
   owner: Frankyzqf
 
 

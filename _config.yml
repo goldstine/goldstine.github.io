@@ -61,10 +61,10 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: Ov23lilYz6dzOui7wBNJ
-  clientSecret: 800597c0f57c9e34c85dbcef504714a7ca537d87
-  repo: frankyzqf.github.io
-  owner: frankyzqf
+  clientID: Ov23limFElVNh6nea9tU
+  clientSecret: 6b5bc444debeb67a1670d6ac11bec8a9ba72d78f
+  repo: Frankyzqf.github.io
+  owner: Frankyzqf
 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)

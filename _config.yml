@@ -3,9 +3,9 @@
 #
 
 # Name of your site (displayed in the header)
-name: "goldstine's blog"
+name: "zqf"
 # Short bio or description (displayed in the header)
-description: "个人技术公众号：Goldstine  分享编程资源 | 学习路线"
+description: "一个初中生"
 
 #
 # Flags below are optional
@@ -14,7 +14,7 @@ description: "个人技术公众号：Goldstine  分享编程资源 | 学习路�
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/0.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
-favicon: https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/favicon.ico
+favicon: https://s2.loli.net/2024/06/10/6xl1V3s2RoBbqdM.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -26,16 +26,6 @@ navigation:
     url: /about
   - name: 归档
     url: /archive
-  - name: 标签
-    url: /tags
-  - name: Img
-    url: /photos
-  - name: Music
-    url: /music
-  - name: Video
-    url: /video
-  - name: 导航
-    url: /navigation
 
 # Pagination
 paginate: 8
@@ -47,23 +37,23 @@ footer-links:
   #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<username>
   dribbble:
-  zhihu: goldstine
-  email: 15797899690@163.com
-  facebook:
+  zhihu: Franky123456789
+  email: franky123456789@qq.com
+  facebook: 
   flickr:
-  github: goldstine 
+  github: frankyzqf
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  tumblr: # https://<username>.tumblr.com
+  tumblr: blog.csdn.net/weixin_71744951?spm=1000.2115.3001.5343
   #twitter: frommidworld
   youtube:
 
 # Text under the icons in footer
-footer-text: Copyright (c) 2023 goldstine
+footer-text: Copyright © 2024-06-07 zqf
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -71,17 +61,15 @@ disqus: # fromendworld
 
 # Gitalk
 gitalk:
-  clientID: 062eeb9a0adf39976274
-  clientSecret: 3c319e4cf4a90b70809d7fd1b25e4c6c10376a10
-  repo: goldstine.github.io
-  owner: goldstine
+  clientID: Ov23limFElVNh6nea9tU
+  clientSecret: 6b5bc444debeb67a1670d6ac11bec8a9ba72d78f
+  repo: pinglun
+  owner: Frankyzqf
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-#google_analytics: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://goldstine.github.io
+url: https://Frankyzqf.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

@@ -90,16 +90,74 @@ public class LangChainController {
 
 
 
+#### 聊天记忆
+(https://blog.csdn.net/qq_38701478/article/details/147636737)[聊天记录实现案例]
 
 
+聊天记忆存储在本地内存中，如果重启机器会导致记忆丢失，如果分布式部署在不同的节点上，也会导致在不同节点上的记忆不一致，所以提供一个接口用于用户自定义 “记忆” 存储方式 SingleSlotChatMemoryStore      
 
 
+<img width="1692" alt="image" src="https://github.com/user-attachments/assets/2dc7bc6a-7e1e-4501-b3d7-adab29b17670" />
+<img width="1441" alt="image" src="https://github.com/user-attachments/assets/19d9d993-1c9f-437b-a986-b1e91fefed18" />
 
+配置类配置缓存的最多消息条数
 
+```
+@AiService(wiringMode = AiServiceWiringMode.EXPLICIT,chatModel = "openAiChatModel",chatMemory = "chatMemory")
+public interface Assitant {
+    String chat(String userMessage);
+}
+```
+```
+@Bean
+    public ChatMemory chatMemory(){
+        return MessageWindowChatMemory.withMaxMessages(10);
+    }
+```
+```
+@GetMapping("/assistantChat")
+    public Map<String,Object> assistantChat(@RequestParam("question") String question){
+        Map<String,Object> resultMap = new HashMap<>();
+        String chat = assitant.chat(question);
+        System.out.println(chat);
 
+        resultMap.put("answer",chat);
+        return resultMap;
+    }
+```
 
+#### 聊天记忆隔离
 
+```
+@AiService(wiringMode = AiServiceWiringMode.EXPLICIT,chatMemory = "chatMemory",chatModel="openAiChatModel",chatMemoryProvider = "chatMemoryProvider")
+public interface SeparateChatAssistant {
+    String chat(@MemoryId int memoryId, @UserMessage String userMessage);
+}
+```
 
+```
+@Bean
+    public ChatMemoryProvider chatMemoryProvider(){
+        return memoryId-> MessageWindowChatMemory.builder().id(memoryId).maxMessages(10).build();
+    }
+```
+
+```
+@GetMapping("/separateChat")
+    public Map<String,Object> separateChat(@RequestParam("id")Integer id,@RequestParam("question")String question){
+        Map<String,Object> resultMap = new HashMap<>();
+
+        String chat = separateChatAssistant.chat(id, question);
+
+        System.out.println(chat);
+
+        resultMap.put("answer",chat);
+        return resultMap;
+    }
+
+```
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/ac4006e2-5870-41d8-8034-f04f80d0059f" />
 
 
 
